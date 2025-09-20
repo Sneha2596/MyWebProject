@@ -1,0 +1,42 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Calculator box */
+.calculator {
+    max-width: 350px;   /* keeps it compact */
+    background: #f9f9f9;
+    border-radius: 15px;
+}
+
+/* Display box */
+#display {
+    height: 60px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding-right: 10px;
+}
+
+/* Buttons */
+button {
+    height: 60px;
+    font-size: 1.2rem;
+    border-radius: 10px !important;   /* bootstrap override */
+}
+
+/* Differentiate operators */
+.btn-warning, .btn-success, .btn-danger {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* Add hover effect */
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+    transition: 0.2s;
+}
